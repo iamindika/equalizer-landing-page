@@ -1,4 +1,5 @@
-/design
+design
 .DS_Store
 README-template.md
 node_modules
+dist
