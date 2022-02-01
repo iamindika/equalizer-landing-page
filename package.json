@@ -1,0 +1,25 @@
+{
+  "name": "equalizer-landing-page",
+  "version": "1.0.0",
+  "description": "subscription based landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamindika/equalizer-landing-page.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "react",
+    "webpack"
+  ],
+  "author": "Indika Kolamba Tantrege",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamindika/equalizer-landing-page/issues"
+  },
+  "homepage": "https://github.com/iamindika/equalizer-landing-page#readme"
+}
