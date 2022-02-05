@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import MainHeader from './MainHeader';
+import MainContent from './MainContent';
 import Image from './Image';
 
 const Main = styled.main`
@@ -13,6 +14,7 @@ export default function MainWrapper() {
       <MainHeader>
         <Image />
       </MainHeader>
+      <MainContent />
     </Main>
   )
 }
