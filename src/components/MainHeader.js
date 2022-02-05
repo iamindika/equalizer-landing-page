@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import bgImage from '../assets/images/bg-pattern-2.svg';
 
 const Header = styled.header`
-  border-radius: 1.6rem;
+  border-radius: 1rem;
   background-image: url(${bgImage});
   background-color: hsl(244, 23%, 12%);
   background-repeat: no-repeat;
