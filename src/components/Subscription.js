@@ -5,7 +5,7 @@ const SubscriptionInfo = styled.p`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1.8rem 0 1.6rem;
+  margin: .5rem 0;
   padding-right: 12rem;
 `;
 
