@@ -5,7 +5,7 @@ import MainContent from './MainContent';
 import Image from './Image';
 
 const Main = styled.main`
-  margin: 16.6rem 0 6.4rem;
+  margin-top: 16.6rem;
 `;
 
 export default function MainWrapper() {
