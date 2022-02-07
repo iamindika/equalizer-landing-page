@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import IntroWrapper from './components/IntroWrapper';
 import MainWrapper from './components/MainWrapper';
+import ContactWrapper from './components/ContactWrapper';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -28,6 +29,7 @@ ReactDOM.render(
     <GlobalStyle />
     <IntroWrapper />
     <MainWrapper />
+    <ContactWrapper />
   </React.Fragment>,
   document.getElementById('app')
 );
