@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Subscription from './Subscription';
+import Link from './Link';
 
 const Wrapper = styled.section`
   position: relative;
@@ -27,6 +28,8 @@ export default function MainContent() {
       <Title>Premium EQ</Title>
       <Text>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</Text>
       <Subscription />
+      <Link icon='apple' />
+      <Link icon='android' className='extra-margin'/>
     </Wrapper>
   )
 }
